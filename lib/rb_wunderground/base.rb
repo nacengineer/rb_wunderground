@@ -5,7 +5,7 @@ require 'hashie'
 module RbWunderground
   class Base
     FEATURES = %w[alerts almanac astronomy conditions currenthurricaine forecast forecast10day
-                  geolookup hourly hourly10day rawtide tide webcams yesterday]
+                  geolookup hourly hourly10day rawtide satellite tide webcams yesterday]
 
     attr_reader :api_key
     attr_reader :format
